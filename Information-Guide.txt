@@ -3,6 +3,10 @@ Theory of TailWind C.S.S:
 Tailwind C.S.S is a C.S.S framework [utility first] that allows the developers to build their own custom designs, within 
 their H.T.M.L Tag by using vast collection of predefined, single purpose C.S.S classes.
 
+J.I.T --> Just in Time Complier is a runtime environment that translates code into machine code during program execution
+rather than before, to improve the performance. It is used by Tailwind C.S.S to enhance the user experience.
+Example :  text-[20px]
+
 Here in this project I will use Tailwind CLI to run tailwind:
 Step 1: npm install tailwindcss @tailwindcss/cli
 Step 2: In your [src/input.css] if not create -- @import "tailwindcss";
@@ -20,3 +24,31 @@ Step 4: Start using your HTML file the tailwind will work:
     Hello world!
   </h1>
 </body>
+
+
+Terms in TailWind C.S.S:
+h -- height
+w -- width
+x -- left and right [horizontal]
+y -- top and bottom [vertical]
+t -- top
+b -- bottom
+l -- left
+r -- right
+p -- padding
+m -- margin
+bg -- background color
+my -- margin top and bottom
+py -- padding top and bottom 
+mx -- margin left and right
+px -- padding left and right
+col -- column
+md -- medium
+lg -- large
+sm -- small
+
+
+Major C.S.S properites in TailWind:
+1) Display -- [Block / Inline / Grid / Flex]
+2) Position -- Where the Element will appear relative to its container. [Relative / Absolute / Fixed / Sticky]
+3) Overflow
