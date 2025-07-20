@@ -14,12 +14,14 @@
         Hello World
       </h1>
     </div> -->
+
     <!-- Learning Flex: -->
     <!-- <div class="flex flex-col items-center justify-evenly space-y-6 mt-2">
       <div class="h-16 w-16 rounded-full bg-blue-500"></div>
       <div class="h-16 w-16 rounded-full bg-red-500"></div>
       <div class="h-16 w-16 rounded-full bg-green-500"></div>
     </div> -->
+
     <!-- Learning Gird -->
     <!-- <div class="grid grid-cols-3 gap-2 mt-10 mx-2">
       <div class="h-16 rounded-full bg-blue-500"></div>
@@ -28,9 +30,78 @@
     </div> -->
 
     <!-- Learning Media Query: -->
-
-    <div class="md:block hidden">
+    <!-- <div class="md:hidden"> -->
+    <!-- <div class="max-sm:bg-amber-500 max-md:bg-amber-700">
       <p class="text-white">I appear on scrren wider than 768px</p>
+    </div> -->
+
+    <!-- Learning Dark Mode: -->
+    <!-- <div class="bg-white dark:bg-black dark:text-white">
+      Dark mode disabled !
+    </div>
+    <div
+      class="m-10 rounded-lg bg-white px-6 py-8 shadow-xl ring-1 ring-slate-900/5 dark:bg-black"
+    >
+      <h3
+        class="text-base font-medium tracking-tight text-slate-900 dark:text-white"
+      >
+        Writes Upside-Down
+      </h3>
+      <p class="mt-2 text-sm text-slate-500 dark:text-blue-100">
+        The Zero Gravity Pen can be used to write in any orientation, including
+        uspide-down. It even works in outer space.
+      </p>
+      <button
+        id="toggleDark"
+        class="btn px-4 py-2 text-sm font-medium mt-8 text-blue-900 bg-blue-100 rounded-md"
+        onclick="document.body.classList.toggle('dark')"
+      >
+        Toggle Dark Mode
+      </button>
+      <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", () => {
+          const toggleDark = document.getElementById("toggleDark");
+          toggleDark.addEventListener("click", function () {
+            if (document.documentElement.classList.includes("dark")) {
+              document.documentElement.classList.remove("dark");
+            } else {
+              document.documentElement.classList.add("dark");
+            }
+            alert("clicked !!!");
+          });
+        });
+      </script>
+    </div> -->
+
+    <!-- Learning Custom Styles and Reusability [Example Card] -->
+
+    <p class="text-chestnut text-[50px] bg-stone-100 p-2">Chestnut Color</p>
+    <div class="card">
+      <h3 class="h3">Writes Upside-Down</h3>
+      <p class="p">
+        The Zero Gravity Pen can be used to write in any orientation, including
+        uspide-down. It even works in outer space.
+      </p>
+      <button
+        id="toggleDark"
+        class="btn"
+        onclick="document.body.classList.toggle('dark')"
+      >
+        Toggle Dark Mode
+      </button>
+      <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", () => {
+          const toggleDark = document.getElementById("toggleDark");
+          toggleDark.addEventListener("click", function () {
+            if (document.documentElement.classList.includes("dark")) {
+              document.documentElement.classList.remove("dark");
+            } else {
+              document.documentElement.classList.add("dark");
+            }
+            alert("clicked !!!");
+          });
+        });
+      </script>
     </div>
   </body>
 </html>

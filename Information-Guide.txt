@@ -52,3 +52,7 @@ Major C.S.S properites in TailWind:
 1) Display -- [Block / Inline / Grid / Flex]
 2) Position -- Where the Element will appear relative to its container. [Relative / Absolute / Fixed / Sticky]
 3) Overflow
+
+Two of the Reusable and most used custom styles:
+@apply
+@layer
