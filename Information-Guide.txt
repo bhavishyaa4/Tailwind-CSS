@@ -1,2 +1,4 @@
 Theory of TailWind C.S.S:
 
+Tailwind C.S.S is a C.S.S framework [utility first] that allows the developers to build their own custom designs, within 
+their H.T.M.L Tag by using vast collection of predefined, single purpose C.S.S classes.
