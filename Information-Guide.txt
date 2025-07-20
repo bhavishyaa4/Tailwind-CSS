@@ -2,3 +2,21 @@ Theory of TailWind C.S.S:
 
 Tailwind C.S.S is a C.S.S framework [utility first] that allows the developers to build their own custom designs, within 
 their H.T.M.L Tag by using vast collection of predefined, single purpose C.S.S classes.
+
+Here in this project I will use Tailwind CLI to run tailwind:
+Step 1: npm install tailwindcss @tailwindcss/cli
+Step 2: In your [src/input.css] if not create -- @import "tailwindcss";
+Step 3: Run the code in terminal: npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+Step 4: Start using your HTML file the tailwind will work:
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
